@@ -3,7 +3,7 @@ export default function Footer(){
     return (
         <>
         <footer className="footer">
-                <span className="mess">- Hi! ^. .^</span>
+                <span className="mess">- You are the best! ^. .^</span>
         </footer>
         </>
     )

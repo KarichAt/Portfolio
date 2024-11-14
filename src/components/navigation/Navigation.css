@@ -9,6 +9,14 @@
     font-weight: 5;
 }
 
+.links a{
+    transition-duration: 0.3s;
+}
+
+.links a:hover{
+    color:#8d62c4;
+}
+
 span {
     font-size: 30px;
 }

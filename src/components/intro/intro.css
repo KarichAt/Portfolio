@@ -1,0 +1,25 @@
+.intro{
+
+}
+
+.ava{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.hiText{
+    width: 70%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.pic{    
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+    background-position: top center;
+    background-image: url("id-шка.jpg");
+    border-radius: 40%;
+}

@@ -7,8 +7,8 @@ export default function Resume(){
             <h2 className="caption">Resume</h2>
             <div className="buttons_tab">
                 <ul>
-                <li className='btn'><a href='CV Karina Ilyushonok.pdf' download={'CV Karina Ilyushonok.pdf'}>Download as PDF</a></li>
-                <li className='btn'><a href='CV Karina Ilyushonok.docx' download={'CV Karina Ilyushonok.docx'}>Download as .docx</a></li>
+                <a  className='btn' href='CV Karina Ilyushonok.pdf' download={'CV Karina Ilyushonok.pdf'}><li>Download as PDF</li></a>
+                <a  className='btn' href='CV Karina Ilyushonok.docx' download={'CV Karina Ilyushonok.docx'}><li>Download as .docx</li></a>
                 </ul>
             </div>
             <div className="sub_caption"> 
