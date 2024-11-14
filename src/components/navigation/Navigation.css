@@ -7,6 +7,7 @@
     display: flex;
     gap: 20px;
     font-weight: 5;
+
 }
 
 .links a{
@@ -22,16 +23,22 @@ span {
 }
 
 .navigation{
-
-    align-items: center;
-    justify-content: center;
+    padding: 0 50px;
+    position: fixed;
+    width: -webkit-fill-available;
     left: 0;
     z-index: 2;
     font-weight: 200;
-    display: flex;
-    justify-content: space-between;
     background-color: #180e1c;
-    box-shadow: 0px 0px 8px rgba(32, 0, 0, 0.1);
+    box-shadow: 0px 0px 8px #8d62c49b;
+}
+
+.anchors{
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hide{

@@ -3,6 +3,7 @@ import '../navigation/Navigation.css'
 export default function Navigation() {
     return (
     <section className='navigation'>
+        <div className='anchors'>
         <span>KarichAt</span>
         <ul className='links'>
             <li className='hide'>
@@ -18,6 +19,7 @@ export default function Navigation() {
                 <a href="#">Contact</a>
             </li>
         </ul>
+        </div>
     </section>
 );
 }
