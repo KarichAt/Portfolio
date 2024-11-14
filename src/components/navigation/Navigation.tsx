@@ -3,7 +3,7 @@ import '../navigation/Navigation.css'
 export default function Navigation() {
     return (
     <section className='navigation'>
-        <span>Karich</span>
+        <span>KarichAt</span>
         <ul className='links'>
             <li className='hide'>
                 <a href="#">About me</a>
